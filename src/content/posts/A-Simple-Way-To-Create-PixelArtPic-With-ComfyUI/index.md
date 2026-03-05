@@ -1,8 +1,8 @@
 ---
 title: 在ComfyUI中生成真·像素风格图片的方式
-published: 2025-03-05
-pinned: true
-description: A simple example of a Markdown blog post.
+published: 2026-03-05
+pinned: false
+description: 简单且有乐趣的AI绘图大学习
 tags: [StableDiffusion, Pixel, Learning]
 category: AI Painting
 licenseName: "CC BY 4.0"
@@ -38,7 +38,7 @@ permalink: "pixel-pic-with-comfyui"
 
 当然，这个模型还是不可能画出完美的像素画。
 
-<img src=".\img001.webp" alt="滚木" title="MiaoMiao Pixel生成的原始图片" width="300" height="480">
+ ![MiaoMiao Pixel生成的原始图片](./img001.webp)
 
 # ComfyUI在搞什么？
 
@@ -56,7 +56,7 @@ permalink: "pixel-pic-with-comfyui"
 
 如图，这就是我最终的像素对齐+颜色量化的方案。
 
-<img src=".\img002.webp" alt="滚木" title="ComfyUI截图" width="1000" height="300">
+![ComfyUI截图](./img002.webp)
 
 ### 预处理
 
@@ -76,7 +76,7 @@ permalink: "pixel-pic-with-comfyui"
 
 请看最终的效果：
 
-<img src=".\img003.webp" alt="滚木" title="修复后的图片" width="300" height="480">
+![处理后的图片](./img003.webp)
 
 如果你觉得似乎没什么区别，可以将图片下载下来。修复前的图片并不能作为美术资产放入像素游戏内，因为它实际上并不是由真正的像素组成的。
 

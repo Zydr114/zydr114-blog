@@ -216,9 +216,9 @@ export const siteConfig: SiteConfig = {
 		},
 		cjkFont: {
 			// 中日韩字体 - 作为回退字体
-			fontFamily: "萝莉体 第二版",
+			fontFamily: "ZenMaruGothic-Medium",
 			fontWeight: "500",
-			localFonts: ["萝莉体 第二版.ttf"],
+			localFonts: ["ZenMaruGothic-Medium"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
@@ -412,13 +412,13 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	title: "Let's Watch Video", // 公告标题，填空使用i18n字符串Key.announcement
+	content: "来看有趣的视频！每日更新！", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
-		url: "/about/", // 链接 URL
+		text: "Click Here！", // 链接文本
+		url: "https://www.bilibili.com/video/BV1CyswztEY6", // 链接 URL
 		external: false, // 内部链接
 	},
 };
