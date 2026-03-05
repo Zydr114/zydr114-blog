@@ -48,6 +48,13 @@
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "经典等线简";
+  src: url("/assets/font/经典等线简.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 /* 确保平滑滚动 */
 html {
