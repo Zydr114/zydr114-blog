@@ -8,9 +8,9 @@ category: AI Painting
 licenseName: "CC BY 4.0"
 author: Zydr
 draft: false
-date: 2025-01-20
-image: "./cover.jpeg"
-pubDate: 2025-03-05
+date: 2026-03-05
+image: "./cover.webp"
+pubDate: 2026-03-05
 permalink: "pixel-pic-with-comfyui"
 ---
 
@@ -38,7 +38,7 @@ permalink: "pixel-pic-with-comfyui"
 
 当然，这个模型还是不可能画出完美的像素画。
 
-<img src=".\img001.jpeg" alt="滚木" title="MiaoMiao Pixel生成的原始图片" width="300" height="480">
+<img src=".\img001.webp" alt="滚木" title="MiaoMiao Pixel生成的原始图片" width="300" height="480">
 
 # ComfyUI在搞什么？
 
@@ -56,7 +56,7 @@ permalink: "pixel-pic-with-comfyui"
 
 如图，这就是我最终的像素对齐+颜色量化的方案。
 
-<img src=".\img002.jpeg" alt="滚木" title="ComfyUI截图" width="1000" height="300">
+<img src=".\img002.webp" alt="滚木" title="ComfyUI截图" width="1000" height="300">
 
 ### 预处理
 
@@ -76,10 +76,9 @@ permalink: "pixel-pic-with-comfyui"
 
 请看最终的效果：
 
-<img src=".\img003.jpeg" alt="滚木" title="修复后的图片" width="300" height="480">
+<img src=".\img003.webp" alt="滚木" title="修复后的图片" width="300" height="480">
 
 如果你觉得似乎没什么区别，可以将图片下载下来。修复前的图片并不能作为美术资产放入像素游戏内，因为它实际上并不是由真正的像素组成的。
-
 
 > ****题外话：这个节点在搞什么？****
 > *节点`FL PixelArt`是我最初使用的像素对齐节点。可惜这个节点有着致命的缺陷。首先，这个节点使用的是及其简陋的”先把图片应用Nearest算法缩小四倍，再用这个算法放大回来“的方式。这种方式实际上并不能真正的对齐像素。虽然看起来确实是整齐的一块一块的颜色了，但每一个单独的块内还是有许多杂色。并且，这个图片也使像素边缘出现锯齿。
