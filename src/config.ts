@@ -209,9 +209,9 @@ export const siteConfig: SiteConfig = {
 		},
 		cjkFont: {
 			// 中日韩字体 - 作为回退字体
-			fontFamily: "经典等线简",
+			fontFamily: "萝莉体 第二版",
 			fontWeight: "500",
-			localFonts: ["经典等线简.ttf"],
+			localFonts: ["萝莉体 第二版.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
