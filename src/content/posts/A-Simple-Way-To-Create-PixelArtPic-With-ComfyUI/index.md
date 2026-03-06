@@ -1,9 +1,9 @@
 ---
 title: 在ComfyUI中生成真·像素风格图片的方式
 published: 2026-03-05
-pinned: false
+pinned: true
 description: 简单且有乐趣的AI绘图大学习
-tags: [StableDiffusion, Pixel, Learning]
+tags: [StableDiffusion, Learning]
 category: AI Painting
 licenseName: "CC BY 4.0"
 author: Zydr
@@ -52,7 +52,7 @@ permalink: "pixel-pic-with-comfyui"
 
 因此，只能把这两个包结合在一起了。
 
-##最终方案
+## 最终方案
 
 如图，这就是我最终的像素对齐+颜色量化的方案。
 
@@ -82,4 +82,4 @@ permalink: "pixel-pic-with-comfyui"
 
 > ****题外话：这个节点在搞什么？****
 > *节点`FL PixelArt`是我最初使用的像素对齐节点。可惜这个节点有着致命的缺陷。首先，这个节点使用的是及其简陋的”先把图片应用Nearest算法缩小四倍，再用这个算法放大回来“的方式。这种方式实际上并不能真正的对齐像素。虽然看起来确实是整齐的一块一块的颜色了，但每一个单独的块内还是有许多杂色。并且，这个图片也使像素边缘出现锯齿。
-> 若不是亲自去读了这个节点的代码，我可能还会觉得是我参数配置或者预处理有问题。
+> 若不是亲自去读了这个节点的代码，我可能还会觉得是我参数配置或者预处理有问题。*

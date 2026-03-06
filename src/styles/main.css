@@ -50,7 +50,7 @@
 }
 @font-face {
   font-family: "经典等线简";
-  src: url("/assets/font/经典等线简.ttf") format("truetype");
+  src: url("/assets/font/经典等线简.ttf") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
