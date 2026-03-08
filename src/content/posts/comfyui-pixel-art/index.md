@@ -1,7 +1,7 @@
 ---
 title: 在ComfyUI中生成真·像素风格图片的方式
 published: 2026-03-05
-pinned: true
+pinned: false
 description: 简单且有乐趣的AI绘图大学习
 tags: [StableDiffusion, Learning]
 category: AI Painting
@@ -11,7 +11,7 @@ draft: false
 date: 2026-03-05
 image: "./cover.webp"
 pubDate: 2026-03-05
-permalink: "pixel-pic-with-comfyui"
+permalink: "comfyui-pixel-art"
 ---
 
 # 在ComfyUI中生成真·像素风格图片的方式
