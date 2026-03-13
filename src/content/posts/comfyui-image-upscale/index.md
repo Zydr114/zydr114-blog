@@ -1,7 +1,7 @@
 ---
 title: 使用ComfyUI实现的模糊动漫图片超分
 published: 2026-03-08
-pinned: true
+pinned: false
 description: 当然不是简单的使用放大模型……
 tags: [StableDiffusion, Learning]
 category: AI Painting

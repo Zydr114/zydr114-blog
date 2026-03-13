@@ -1,7 +1,7 @@
 ---
 title: 使用ComfyUI批量化生成像素帧序列图
 published: 2026-03-08
-pinned: true
+pinned: false
 description: AI绘画大学习……锐意更新中……
 tags: [StableDiffusion, Learning]
 category: AI Painting
