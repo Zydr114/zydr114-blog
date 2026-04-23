@@ -1,7 +1,7 @@
 ---
 title: UAC电子化日志：服务端Core以及测试用客户端开发完成
 published: 2026-04-23
-pinned: false
+pinned: true
 description: 我与C++和解了……真的……
 tags: [UAC, Learning]
 category: Journal
