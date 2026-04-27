@@ -1,5 +1,4 @@
 ---
-
 title: 故事（モエ）
 published: 2026-03-06
 pinned: false
@@ -11,7 +10,7 @@ author: Zydr
 draft: false
 date: 2026-03-06
 pubDate: 2026-03-06
-permalink: "monotagari-moe"
+permalink: "onotagari-moe"
 
 ---
 

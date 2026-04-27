@@ -11,7 +11,7 @@ draft: false
 date: 2026-03-05
 image: "./cover.webp"
 pubDate: 2026-03-05
-permalink: "comfyui-pixel-art"
+permalink: "Comfyui-Pixel-Art"
 ---
 
 # 在ComfyUI中生成真·像素风格图片的方式

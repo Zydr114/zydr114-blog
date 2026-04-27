@@ -10,7 +10,7 @@ author: Zydr
 draft: false
 date: 2026-03-06
 pubDate: 2026-03-06
-permalink: "monotagari-thefirst"
+permalink: "Monotagari-Thefirst"
 
 ---
 

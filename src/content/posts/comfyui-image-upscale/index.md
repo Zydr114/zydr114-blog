@@ -11,7 +11,7 @@ draft: false
 date: 2026-03-08
 image: "./cover.webp"
 pubDate: 2026-03-08
-permalink: "comfyui-image-upscale"
+permalink: "Comfyui-Image-Upscale"
 
 ---
 

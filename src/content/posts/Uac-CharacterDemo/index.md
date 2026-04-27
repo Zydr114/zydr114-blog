@@ -10,7 +10,7 @@ author: Zydr
 draft: false
 date: 2026-03-24
 pubDate: 2026-03-24
-permalink: "uac-character-demo"
+permalink: "Uac-CharacterDemo"
 ---
 
 在经过漫长的和AI互相拷打和痛苦学习C#的时间后，UAC电子化也是提上了日程。
@@ -253,7 +253,5 @@ namespace UacCore_v2
 这套架构利用了C#的反射特性，可以动态加载角色文件，以及与之配套的Buff和地形规则等等。
 
 这套架构下，如果以后UAC服务端想要添加新角色甚至新机制，只需要写一个对应的文件让主程序加载即可，实现了高度拓展性，也满足了我个人当初设计UAC时想要什么就写什么的私心（笑）。
-
-
 
 如果你真的对UAC很感兴趣/想知道UAC是什么，可以看看我博客中介绍UAC的文章（很可惜，还没写）。

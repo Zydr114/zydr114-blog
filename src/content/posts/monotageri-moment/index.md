@@ -10,7 +10,7 @@ author: Zydr
 draft: false
 date: 2026-03-06
 pubDate: 2026-03-06
-permalink: "monotagari-moment"
+permalink: "Monotagari-Moment"
 
 ---
 # 故事（今昔物语·今）
@@ -93,7 +93,8 @@ permalink: "monotagari-moment"
 “好。”她走掉了，轻轻掩上门。屋子复又变得空荡荡起来。我这才想起来，我连她名字都不知道。
 也难怪，本来就是奔着强奸去的，不知道名字也正常。
 
-> ----
+> -
+---
 
 “你好呀。”
 
