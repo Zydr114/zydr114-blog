@@ -29,15 +29,16 @@ import { rehypeImageWidth } from "./src/plugins/rehype-image-width.mjs";
 import rehypeExternalLinks from "rehype-external-links";
 import { remarkFixGithubAdmonitions } from "./src/plugins/remark-fix-github-admonitions.js";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.siteURL,
-	base: "/",
-	trailingSlash: "always",
+    site: siteConfig.siteURL,
+    base: "/",
+    trailingSlash: "always",
+    output: "static",
 
-	output: "static",
-
-	integrations: [
+    integrations: [
 		umami({
 			shareUrl: false,
 		}),
@@ -117,7 +118,8 @@ export default defineConfig({
 		}),
 		sitemap(),
 	],
-	markdown: {
+
+    markdown: {
 		remarkPlugins: [
 			remarkMath,
 			remarkContent,
@@ -174,7 +176,8 @@ export default defineConfig({
 			],
 		],
 	},
-	vite: {
+
+    vite: {
 		plugins: [tailwindcss()],
 		build: {
 			// 静态资源处理优化，防止小图片转 base64 导致 HTML 体积过大（可选，根据需要调整）
@@ -197,4 +200,6 @@ export default defineConfig({
 			},
 		},
 	},
+
+    adapter: cloudflare()
 });
